@@ -10,6 +10,7 @@ This project is a simple to use note taking app to write and save notes.
 * [Funtionality](#Funtionality)
 * [Project Demo](#Project-Demo)
 * [Credits](#Credits)
+* [License](#License)
 
 ### Link to Website
 
@@ -37,3 +38,7 @@ When you enter the inital page, you see a button that says get started. Clicking
 
 Here are links to tutorials I folllowed to help me throughout the project.
 * https://www.youtube.com/watch?v=sJ7lkaeeEkw&t=296s
+
+### License
+This application is covered under the MIT License.
+[![Generic badge](https://img.shields.io/badge/License-MIT-yellowgreen.svg)](https://shields.io/)

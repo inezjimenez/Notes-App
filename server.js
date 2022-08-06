@@ -1,18 +1,14 @@
 //dependencies
-
 const PORT = process.env.PORT || 3001;
 const express = require("express");
 const app = express();
-
-const fs = required('fs');
-const path = required('path');
 
 // requiring Express and creating a new instance of Router on it
 // holding that in a variable called routes
 // then creating a route at the root path of this Router that sends back a simple message
 // then export the Router
-const apiRoutes = required('./routes/apiRoutes');
-const htmlRoutes = required('./routes/htmlRoutes'); 
+const apiRoutes = require('./develop/routes/apiRoutes');
+const htmlRoutes = require('./develop/routes/htmlRoutes'); 
 
 // urlencoded() function = a built-in middleware function in Express
 app.use(express.urlencoded({
